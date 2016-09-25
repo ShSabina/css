@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+figure {
+	display:inline-block;
+	white-space:nowrap;
+}
+figcaption {
+	text-align:center;
+	font-size:18px;
+	
+}
+img {
+	border:#CCC thick solid;
+	margin-top:20px;
+	
+}
+h1 {
+	margin-left:0.7em;
+}
+a {
+	text-decoration:none;
+}
+table {
+	
+	width:100%;
+	
+	border-collapse:collapse;
+	font-family:"MS Serif", "New York", serif;
+	overflow-y: hidden;
+}
+tr, th, td {
+	border: #666 thin outset;
+}
+th {
+	color:#03C;
+	vertical-align:text-top;
+	padding:2px 4px;
+	text-align:center;
+	
+}
+
+
+li span {
+	font-weight:normal;
+}
+#recipe1{
+	/*border:7px dotted #428bca;*/
+	outline:1px solid orange;
+}
+td {
+	text-align:center;
+}
+nav{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:18px;
+}
+@media only screen and (max-width:768px), (min-device-width:768px) and (max-device-width1024px) {
+	
+	img #recepi {
+		margin-top:-20%; margin-right:-500%;
+		max-width:100%;
+	height:auto;
+	}
+
+	h1, h2 {
+		font-size:20px;
+		font-weight:bold;
+		
+	}
+}
+
+@media screen and (max-width: 640px) {
+	table {
+		overflow-x: auto;
+	
+		
+		
+	}
+	#img {
+		margin-top:0%; 
+		max-width:100%;
+		margin-left:0%;
+
+	
+	}
+	ol, img {
+		margin-top:0%;
+	}
+	#img1 {
+		width:270px;
+		height:auto;
+		margin-top:-2%;
+	}
+	#h1 {
+		font-size:larger;
+		margin-top:15%;
+	
+	}
+	
+}

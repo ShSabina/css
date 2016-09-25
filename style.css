@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	min-height:100%; 
+	
+	overflow-y:scroll;
+	}
